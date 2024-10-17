@@ -1,0 +1,15 @@
+#include <stdio.h>
+/**
+* main - size of
+* Return: 0
+*
+*/
+int main(void)
+{
+printf("Size of a char: %u", sizeof(char))
+printf("Size of a int: %u", sizeof(int))
+printf("Size of a long int: %u", sizeof(long int))
+printf("Size of a long long int: %u", sizeof(long long int))
+printf("Size of a float: %u", sizeof(float))
+return (0);
+}
