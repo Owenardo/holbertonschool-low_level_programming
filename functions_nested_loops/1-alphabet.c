@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - imprimir a-z
+* print_alphabet - imprimir a-z
 * Return: 0
 *
 */
