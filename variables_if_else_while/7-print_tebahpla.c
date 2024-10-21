@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - reverse 
+* main - reverse
 * Return: 0
 *
 */
