@@ -1,15 +1,12 @@
 #include <stdio.h>
-#include"main.h"
-
+#include "main.h"
 /**
-*_isalpha - letters
-*@c: variable for ch
-*Return: 0
+*
+*
+*
+*
 */
-
-int _isalpha(int c)
-{
-
+int print_sign(int n);
 if
 ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 {
