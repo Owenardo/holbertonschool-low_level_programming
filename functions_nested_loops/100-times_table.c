@@ -23,15 +23,14 @@ _putchar('0' + (n % 10));
 * Return: table of 9
 *
 */
-void times_table(int n)
+void print_times_table(int n)
 {
 int product;
 int i = 0, j;
-if (n < 0 || n = 15)
+if (n < 0 || n == 15)
 {
-return
-} else
-{
+return;
+} 
 while (i <= n)
 {
 j = 0;
@@ -63,6 +62,5 @@ j++;
 }
 _putchar('\n');
 i++;
-}
 }
 }
