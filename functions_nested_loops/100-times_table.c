@@ -41,23 +41,17 @@ if (product < 10)
 {
 if (j > 0)
 {
-_putchar(' ');
-_putchar(' ');
-}
-print_number(product);
-}
-else
-{
-if (j > 0)
-{
-_putchar(' ');
-}
-print_number(product);
-}
-if (j < n)
-{
 _putchar(',');
+_putchar(' ');
 }
+print_number(product);
+}
+if (product < 10)
+{
+_putchar(' ');
+_putchar(' ');
+}
+print_number(product);
 j++;
 }
 _putchar('\n');
