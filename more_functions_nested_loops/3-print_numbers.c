@@ -13,5 +13,5 @@ while (i < 10)
 _putchar(i + 48);
 i++;
 }
-putchar('\n');
+_putchar('\n');
 }
