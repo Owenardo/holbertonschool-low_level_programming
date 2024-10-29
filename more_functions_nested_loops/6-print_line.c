@@ -11,15 +11,15 @@ int i = 0;
 
 if (n <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 else
 {
 while (i < n)
 {
-putchar('_');
+_putchar('_');
 i++;
 }
-putchar('\n');
+_putchar('\n');
 }
 }
