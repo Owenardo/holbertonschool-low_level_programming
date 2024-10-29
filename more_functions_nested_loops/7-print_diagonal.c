@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* print_diagonal - fuction 
+* print_diagonal - fuction
 * @n: number
-* 
+*
 * Return: 0
 */
 void print_diagonal(int n)
@@ -15,7 +15,7 @@ if (n <= 0)
 }
 else
 {
-for (i = 0; 1 < n; i++)
+for (i = 0; i < n; i++)
 {
 for (j = 0; j < n; j++)
 {
