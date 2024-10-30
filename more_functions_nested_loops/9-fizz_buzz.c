@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - fizz buzz function
- *
- *
- * Return: always 0
- */
+* main - fizz buzz function
+*
+*
+* Return: always 0
+*/
 
 int main(void)
 {
