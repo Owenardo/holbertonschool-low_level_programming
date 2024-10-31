@@ -1,49 +1,43 @@
-#include <limits.h>
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+#include <limits.h>
 /**
- * _atoi - fuction
- * @s: string
- * Return: syr
+ * _atoi - function that converts a string to number
+ * @s: parameter
+ * Return: num
+ *
  *
  */
+
 int _atoi(char *s)
 {
-int sign = 1;
-unsigned int result = 0;
-int found_digit = 0;
+	int num = 0;
+	int sign = 1;
+	int digit_in_string = 0;
+	int digit;
 
-while (*s)
-{
-if (*s == ' ')
-{
-s++;
-continue;
-}
-if (*s == '-')
-{
-sign = -sign;
-s++;
-}
-else if (*s == '+')
-{
-s++;
-}
-while (*s >= '0' && *s <= '9')
-{
-found_digit = 1;
-if (result > (UINT_MAX - (*s - '0')) / 10)
-{
-return ((sign == 1) ? INT_MAX : INT_MIN);
-}
-result = result * 10 + (*s - '0');
-s++;
-}
-if (found_digit)
-{
-break;
-}
-s++;
-}
-return (sign *result);
+	while (*s)
+	{
+		if (*s >= '0' && *s <= '9')
+		{
+			digit_in_string = 1;
+			digit = *s - '0';
+			if (num > (INT_MAX - digit) / 10)
+			{
+				return ((sign == 1) ? INT_MAX : INT_MIN);
+			}
+			num = num * 10 + digit;
+		} else if (*s == '-')
+		{
+			if (!digit_in_string)
+			{
+				sign *= -1;
+			}
+		} else if (digit_in_string)
+		{
+			break;
+		}
+		s++;
+	}
+	return (digit_in_string ? sign * num : 0);
 }
