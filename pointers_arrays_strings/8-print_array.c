@@ -20,5 +20,5 @@ printf("%d", a[i]);
 	putchar(' ');
 	}
 }
-putchar('/n');
+putchar('\n');
 }
