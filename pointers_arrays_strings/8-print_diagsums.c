@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
- *
+ * print_diagsums - sum of the two diagonals
+ *@a: pointer
+ *@size: size
+ *Return: 0
  */
 void print_diagsums(int *a, int size)
 {
