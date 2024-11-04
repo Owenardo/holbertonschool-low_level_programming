@@ -19,7 +19,7 @@ while (b < 8)
 _putchar(a[i][b]);
 b++;
 }
-_putchar('\0');
+_putchar('\n');
 i++;
 }
 }
