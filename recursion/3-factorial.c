@@ -1,20 +1,16 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
+ *factorial - given number
+ *@n: number
+ *Return: -1, 1 or result
  *
  */
 int factorial(int n)
 {
-  int resultado = 1;
-  if (n < 0)
-    return -1;
-  while (n > 0)
-    {
-      resultado *= n;
-      n--;
-    }
-  return (resultado);
+if (n < 0)
+return (-1);
+if (n == 0)
+return (1);
+return (n * factorial(n - 1));
 }
