@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _strlen - fuction
+* _strlen_recursion - fuction
 * @s: pointer
 * Return:length
 *
