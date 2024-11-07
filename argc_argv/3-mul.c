@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
  *main - argv 1 * 2
  *@argc: asd
@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 int total;
 
-if (argc < 2)
+if (argc != 3)
 {
 printf("error\n");
 return (1);
