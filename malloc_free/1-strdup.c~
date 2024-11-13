@@ -1,0 +1,25 @@
+#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+char *_strdup(char *str)
+{
+char *o;
+int a,b;
+
+if (str == NULL)
+return (NULL);
+
+while (str[a] != '\0')
+a++;
+o = malloc(a * sizeof(*o) +1);
+
+if (o == NULL)
+return (NULL);
+
+while (b < a)
+b++;
+a[b] = str[b];
+a[b] = '\0';
+
+return (o);
+}
