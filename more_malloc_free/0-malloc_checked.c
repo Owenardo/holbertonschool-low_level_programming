@@ -1,11 +1,11 @@
 #include "main.h"
-0;10;1c#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
 /**
- *
- *
- *
+ * malloc_checked - fuction allocates memory 
+ *@b: memory 
+ *Return: p
  *
  */
 
