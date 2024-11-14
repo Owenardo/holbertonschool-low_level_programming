@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <limits.h>
 /**
- * malloc_checked - fuction allocates memory 
- *@b: memory 
+ * malloc_checked - fuction allocates memory
+ *@b: memory
  *Return: p
  *
  */
