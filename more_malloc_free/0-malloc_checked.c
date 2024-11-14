@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+0;10;1c#include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
 /**
@@ -16,6 +16,5 @@ int *p;
 p = malloc(b);
 if (p == NULL)
 exit(98);
-
-return (NULL);
+return (p);
 }
