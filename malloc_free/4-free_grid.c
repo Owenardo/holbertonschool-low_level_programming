@@ -1,14 +1,17 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
-* free_grid - free a 2-dimensional array
-* @grid: pointer
-* @height: rows
- * Return: void
+ * free_grid - function that concatenates two strings
+ * @grid: parmater for grid
+ * @height: parameter for height
+ * Return: Always 0.
  */
 void free_grid(int **grid, int height)
 {
-	while (height)
-		free(grid[--height]);
+	int i;
+
+	for (i = 0; i < height; i++)
+		free(grid[i]);
 	free(grid);
 }
