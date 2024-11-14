@@ -21,6 +21,7 @@ arsize = nmemb * size;
 ar = malloc(arsize);
 if (ar == NULL)
 return (NULL);
+i = 0;
 while (i < arsize)
 {
 ar[i] = 0;
