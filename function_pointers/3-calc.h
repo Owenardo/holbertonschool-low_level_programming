@@ -1,10 +1,10 @@
 #ifndef CALC_H
 #define CALC_H
 /**
- * struct asd
+ * struct - asd
  *
- * @op:asd
- * @f: asd
+ * @op: sdasd
+ * @f: asdddd
  */
 typedef struct op
 {
