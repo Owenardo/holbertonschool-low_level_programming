@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * binario_a_unit - convert a binary number to unsigned
+ * binary_to_unit - convert a binary number to unsigned
  *@b: string
  *Return: result
  */
