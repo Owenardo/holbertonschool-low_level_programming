@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * binary_to_unit - convert a binary number to unsigned
+* binary_to_uint - fuciton converts binary number to unsigned
  *@b: string
  *Return: result
  */
